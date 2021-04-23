@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+/*------------------------------------------------header section start-----------------------------------*/
+
+header{
+    width:100%; 
+    float: left;
+    padding: 27px 0;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/homepage.jpg)no-repeat;
+    background-size:cover;
+
+}
+
+.nav-link{
+    color: white;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    color: #fafd17;
+
+}
+
+.h-heading{
+margin-top: 133px;
+}
+
+
+.h-heading h1 {
+    background: rgba(0, 0, 0, 0.425);
+    display: inline-block;
+    padding: 3px 51px;
+    color: white;
+    font-size: 51px;
+    font-weight: 400;
+}
+
+.h-heading p {
+    color: white;
+    font-size: 16px;
+    width: 539px;
+    margin-top: 13px;
+    line-height: 21px;
+    margin-bottom: 41px;
+}
+
+.h-heading span{
+    border-bottom: 1px solid white;
+    display: block;
+    width: 5%;  
+}
+
+
+.hero-btn{
+    margin-top: 37px;
+    border: 2px solid white;
+    padding: 8px 40px;
+    margin-bottom: 130px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-btn:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------header section close-----------------------------------*/
+
+/*------------------------------------------------------well come section start----------------------------*/ 
+
+.wellcome{
+    width: 100%;
+    float: left;
+    padding-top:  60px;
+    background: #f6f6f6;
+}
+
+.wellcome h1{
+    margin-top: 70px;
+    
+}
+
+.wellcome span{
+    border-bottom: 1px solid #28282e;;
+    display: block;
+    width: 5%; 
+    margin-top: 20px; 
+}
+
+.wellcome p {
+    margin-top: 30px;
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    width: 295px;
+}
+
+
+.left-img {
+    position: relative;
+    bottom: -13%;
+    left: -36%;
+    width: 775px;
+}
+
+
+/*------------------------------------------------------well come section close----------------------------*/ 
+
+
+/*------------------------------------------------------title section start----------------------------*/ 
+
+.title{
+    width: 100%;
+    float: left;
+    padding: 65px 0;
+    background: #28282e;
+    
+}
+
+.title h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 37px;
+    margin-top: 10px;
+}
+
+.title span {
+    border-bottom: 1px solid white;
+    display: block;
+    width: 5%;
+    margin-top: 20px;
+}
+
+
+.title p{
+    margin-top: 47px;
+    color: white;
+    width: 349px;
+    font-size: 14px;
+}
+
+.title-btn{
+    margin-top: 40px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    
+}
+
+
+.title-btn:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.left-img-two {
+    margin-top: 115px;
+}
+
+/*------------------------------------------------------title section close----------------------------*/ 
+
+
+/*-------------------------------------------------------footer section start--------------------------*/ 
+
+footer{
+    float: left;
+    width: 100%;
+    background: #ef4035;
+    padding: 35px 0;
+}
+
+footer h3{
+    color: #fbccc9; 
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*-------------------------------------------------------footer section close--------------------------*/ 
+
+
+
+
+/*------------------------------------------------media quary start-----------------------------------*/
+
+/*-----------mobile version---------------------*/
+@media(min-width:320px) and (max-width:576px){
+
+.navbar img{
+    width:186px; 
+    z-index: 100;
+}
+
+.color-icon{
+    color: white;
+}
+
+.h-heading{
+    margin-top: 60px;
+    }
+
+.h-heading h1 {
+    padding: 9px 37px;
+    font-size: 21px;
+}
+
+.h-heading p {
+    font-size: 17px;
+    width: 290px;
+    margin-bottom: 15px;
+    
+}
+
+.h-heading span {
+    border-bottom: 1px solid white;
+    display: block;
+    width: 5%;
+}
+
+.hero-btn{
+    margin-bottom: 80px;
+}
+
+.wellcome h1 {
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.wellcome p {
+    margin-top: 21px;
+    font-size: 15px;
+    width: 273px;
+}
+
+.left-img {
+    position: relative;
+    bottom: -16%;
+    left: -6%;
+    width: 274px;
+}
+
+.title h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+.title p {
+    margin-top: 47px;
+    color: white;
+    width: 285px;
+    font-size: 12px;
+}
+
+.title-btn {
+    margin-top: 21px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+}
+
+.left-img-two {
+    margin-top: 40px;
+    width: 318px;
+}
+
+footer h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+}
+
+
+
+/*-----------tab version---------------------*/
+@media(min-width:576.01px) and (max-width:768px){
+
+    .navbar img{
+        width:241px; 
+        z-index: 100;
+    }
+    
+    .color-icon{
+        color: white;
+    }
+
+    .h-heading{
+        margin-top: 60px;
+        }
+
+
+    .h-heading h1 {
+        padding: 7px 33px;
+        font-size: 30px;
+    }
+
+    .h-heading p {
+        width: 377px;
+    }
+
+    .hero-btn {
+        margin-bottom: 80px;
+        margin-top: 41px;
+    }
+
+    .wellcome{
+        width: 100%;
+        float: left;
+        padding-top:  15px;
+        background: #f6f6f6;
+    }
+    
+    .wellcome h1 {
+        font-size: 29px;
+        line-height: 37px;
+    }
+
+    .wellcome p {
+        margin-top: 23px;
+        font-size: 15px;
+        width: 386px;
+    }
+
+    .left-img {
+        position: relative;
+        bottom: -14%;
+        left: -6%;
+        width: 388px;
+    }
+
+    .title{
+        width: 100%;
+        float: left;
+        padding: 65px 0;
+        background: #28282e;
+        
+    }
+
+.title h1 {
+    font-size: 32px;
+}
+
+.title p {
+    width: 360px;
+}
+
+.title-btn {
+    margin-top: 21px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+}
+
+.left-img-two img {
+    width: 340px;
+    margin-top: -30px;
+}
+
+footer h3 {
+    font-size: 11px;
+    text-align: center;
+}
+
+
+}
+
+
+
+/*-----------medium version---------------------*/
+@media(min-width:768.01px) and (max-width:992px){
+
+    .navbar img{
+        width:286px; 
+    }
+    
+    .color-icon{
+        color: white;
+    }
+
+    .h-heading{
+        margin-top: 60px;
+        }
+
+        .h-heading h1 {
+            padding: 7px 33px;
+            font-size: 40px;}
+
+            .wellcome{
+                width: 100%;
+                float: left;
+                padding-top: 25px;
+                padding-bottom: 20px;
+                background: #f6f6f6;
+            }
+            
+            .wellcome h1 {
+                font-size: 30px;
+                line-height: 38px;
+            }
+
+            .wellcome p {
+                margin-top: 23px;
+                font-size: 10px;
+                width: 256px;
+            }
+
+            .left-img {
+                position: relative;
+                bottom: -45%;
+                left: -14%;
+                width: 428px;
+            }
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title p {
+    width: 262px;
+    font-size: 14px;
+}
+
+.title-btn {
+    margin-top: 21px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+}
+
+.left-img-two img {
+    width: 280px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
